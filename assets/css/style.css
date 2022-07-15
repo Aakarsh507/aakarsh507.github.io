@@ -402,37 +402,66 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+
+.skills-icon{
+  color: rgb(0, 0, 0);
+  margin-right: auto;
+  width:100%;
+  height: auto;
+  font-size: 18px;
 }
-.skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
+.skills-title {
+  font-size: 30px;
+  color: #173b6c;
+  padding: 5px;
+
 }
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+.computer-skills, .programming-skills, .tech-skills{
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  font-size: 18px;
+ 
 }
-.skills .progress-bar-wrap {
-  background: #dce8f8;
-  height: 10px;
+.image{
+  height: 150px;
+  width: 150px;
+  vertical-align: middle;
+  text-align: center;
 }
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #149ddd;
+
+ul {
+  list-style-type: none;
 }
+.computer-skills ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+  text-align: center;
+}
+
+.programming-skills ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+  text-align: center;
+}
+
+.tech-skills ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+  text-align: center;
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
