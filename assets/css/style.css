@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
+  text-align: center
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -356,13 +357,13 @@ section {
 }
 .button {
   color: #173b6c;
-  font-weight: bold;
+  font-weight: 700;
   font-family: "Raleway", sans-serif;
 }
 
 .button:hover {
   color: #149ddd;
-  font-weight: bold;
+  font-weight: 700;
   font-family: "Raleway", sans-serif;
 }
 
@@ -383,20 +384,21 @@ section {
 
 }
 .skills-title {
-  font-size: 30px;
+  font-size: 24px;
   color: #173b6c;
   padding: 5px;
   flex-basis: 100%;
   margin-bottom: 0.5rem;
   text-align: center;
-  
+  font-weight: 700;
 }
 .computer-skills, .programming-skills, .tech-skills{
   float: left;
   margin: 1%;
-  font-size: 18px;
+  font-size: 16px;
   flex-basis: 100%;
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  
 }
 .image{
   height: 150px;
@@ -410,27 +412,21 @@ ul {
   list-style-type: none;
 }
 .computer-skills ul i {
-  font-size: 16px;
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;
-  text-align: center;
 }
 
 .programming-skills ul i {
-  font-size: 16px;
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;
-  text-align: center;
 }
 
 .tech-skills ul i {
-  font-size: 16px;
   margin-right: 5px;
   color: #149ddd;
   line-height: 0;
-  text-align: center;
 }
 @media (min-width: 600px) {
   main {
