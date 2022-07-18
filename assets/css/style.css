@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 900px) {
 	.profile h1 {
 		text-align: center !important;
 	}
