@@ -442,7 +442,8 @@ ul {
 }
 .design{
   background-color:#fff;
-  padding: 2%;
+  margin: 2%;
+
 }
 
 .back h1{
@@ -637,4 +638,9 @@ text-align: center;
   font-family: "Raleway", sans-serif;
   border: none;
   background-color: none;
+}
+
+.main{
+  width: 100%;
+
 }
