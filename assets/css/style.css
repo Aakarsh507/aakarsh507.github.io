@@ -436,13 +436,13 @@ ul {
 --------------------------------------------------------------*/
 .NASA, .trip{
   background-color:#f5f8fd;
-  padding: 2%;
+  padding: 5%;
   
   
 }
 .design{
   background-color:#fff;
-  margin: 2%;
+  margin: 5%;
 
 }
 
@@ -450,10 +450,14 @@ ul {
 font-size: 24px;
 }
 
+.section-title p{
+  font-size: 16px;
+}
 .section-title h1{
-  font-size: 36px;
+  font-size: 28px;
   font-weight: bolder;
   color: #173b6c;
+  margin: none;
 }
 .nasatech-rise{
   display: block;
