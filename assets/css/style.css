@@ -376,8 +376,8 @@ section {
   justify-content: space-between;
 
 }
-.skills-title {
-  font-size: 24px;
+.skills-title  {
+  font-size: 36px;
   color: #173b6c;
   padding: 5px;
   flex-basis: 100%;
@@ -434,7 +434,7 @@ ul {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.NASA, .trip{
+.NASA, .trip, .reflection{
   background-color:#f5f8fd;
   padding: 5%;
   
@@ -488,6 +488,7 @@ font-size: 24px;
 }
 .portfolio-details {
   padding-top: 0px;
+  margin-top: 0px;
 }
 .portfolio-details .portfolio-details-slider .image {
   width: 100%;
@@ -639,9 +640,16 @@ text-align: center;
   background-color: none;
 }
 .button2 {
-  font-family: "Raleway", sans-serif;
   border: none;
   background-color: none;
+}
+
+.button2:hover{
+  background-color:#149ddd;
+  margin: 1%;
+  border-radius: 12px;
+  display: block;
+  padding: 3%;
 }
 
 .main{
