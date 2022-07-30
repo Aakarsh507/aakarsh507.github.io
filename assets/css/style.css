@@ -376,7 +376,7 @@ section {
   justify-content: space-between;
 
 }
-.skills-title  {
+.skills-title p  {
   font-size: 36px;
   color: #173b6c;
   padding: 5px;
@@ -668,16 +668,20 @@ font-size: 24px;
 
 .project button {
   border: none;
-  background-color:#f5f8fd;
+  background-color:#173b6c;
+  border-radius: 6px;
+  display: block;
+  padding: 1%;
+  
 
   
 }
 
 .project button:hover{
   background-color:#149ddd;
-  border-radius: 8px;
+  border-radius: 6px;
   display: block;
-  padding: 2%;
+  padding: 1%;
 }
 
 .project-main{
@@ -685,7 +689,7 @@ font-size: 24px;
   background-color:#f5f8fd;
   width:100%;
   height: auto;
-  font-size: 18px;
+  font-size: 12px;
   flex-basis: 100%;
   padding-top: 2%;
   display: flex;
@@ -693,19 +697,26 @@ font-size: 24px;
   justify-content: space-between;
   padding: 2%;
 }
-
+.project h4{
+  font-size: 22px;
+  padding: 10px;
+  color: #000000;
+  border: 3px;
+  border-style:solid;
+}
 .project  {
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 0.5rem;
   text-align: center;
   flex-basis: 100%;
-  padding-bottom: 2%;
+  padding: 2%;
 }
 .project img{
   height: auto;
   width: 100%;
   flex-basis: 100%;
   justify-content: space-between;
+  padding: 8px;
   
 }
 
