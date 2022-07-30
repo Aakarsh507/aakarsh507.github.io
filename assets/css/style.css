@@ -435,9 +435,9 @@ ul {
 # Portfolio
 NASA TechRise
 --------------------------------------------------------------*/
-.NASA, .trip, .reflection, .build{
+.intro, .trip, .reflection, .build{
   background-color:#f5f8fd;
-  padding: 5%;
+  padding: 3%;
   overflow-x :hidden; 
 }
 .trip2 {
@@ -446,7 +446,7 @@ NASA TechRise
 }
 .design{
   background-color:#fff;
-  padding: 5%;
+  padding: 3%;
   overflow-x :hidden; 
   
 
@@ -481,6 +481,7 @@ font-size: 24px;
 .reason h1{
   font-size: 20px;
   font-style: italic;
+  padding-bottom: 20px;
 }
 
 .project-img {
@@ -507,6 +508,16 @@ font-size: 24px;
   height: auto;
 }
 .portfolio-details .portfolio-details-slider .image2 {
+  width: 70%;
+  height: auto;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3%;
+}
+
+.portfolio-details .portfolio-details-slider .image3 {
   width: 80%;
   height: auto;
   align-items: center;
@@ -515,6 +526,7 @@ font-size: 24px;
   margin-right: auto;
   padding-bottom: 3%;
 }
+
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 0px;
   position: relative;
@@ -652,43 +664,68 @@ font-size: 24px;
     flex-basis: 19.5%;
   }
 }
-.projects button{
-  margin-right: auto;
-  height: auto;
-  height: 375px;
-  width: 375px;
-  float: left;
 
 
-
-}
-
-.projects button {
+.project button {
   border: none;
   background-color:#f5f8fd;
 
   
 }
 
-.projects button:hover{
+.project button:hover{
   background-color:#149ddd;
   border-radius: 8px;
   display: block;
-  padding: 1%;
+  padding: 2%;
 }
 
+.project-main{
+  color: rgb(0, 0, 0);
+  background-color:#f5f8fd;
+  width:100%;
+  height: auto;
+  font-size: 18px;
+  flex-basis: 100%;
+  padding-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2%;
+}
 
+.project  {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  flex-basis: 100%;
+  padding-bottom: 2%;
+}
+.project img{
+  height: auto;
+  width: 100%;
+  flex-basis: 100%;
+  justify-content: space-between;
+  
+}
+
+  
 @media (min-width: 600px) {
   main {
-    float: none;
+    flex-wrap: nowrap;
   }
-  .projects button {
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .project {
+    flex-basis: 40%;
   }
 }
+.section-title h3{
+  font-size: 36px;
+  color: #173b6c;
+  font-weight: bolder;
+}
+
+
+
   
 /*--------------------------------------------------------------
 # Garage Project
@@ -758,7 +795,7 @@ font-size: 24px;
     }
   }
 
-  .solder-main{
+  .build-main{
     color: rgb(0, 0, 0);
     background-color:#f5f8fd;
     width:100%;
@@ -771,14 +808,14 @@ font-size: 24px;
     justify-content: space-between;
   }
 
-  .solder  {
+  .build2  {
     font-size: 16px;
     margin-bottom: 0.5rem;
     text-align: center;
     flex-basis: 100%;
     font-style: italic;
   }
-  .solder img{
+  .build2 img{
     height: auto;
     width: 100%;
     flex-basis: 100%;
@@ -792,7 +829,7 @@ padding-bottom: 10px;
     main {
       flex-wrap: nowrap;
     }
-    .solder {
+    .build2 {
       flex-basis: 45%;
     }
   }
