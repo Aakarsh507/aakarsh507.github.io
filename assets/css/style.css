@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  text-align: center
+  text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -433,17 +433,20 @@ ul {
 
 /*--------------------------------------------------------------
 # Portfolio
+NASA TechRise
 --------------------------------------------------------------*/
-.NASA, .trip, .reflection{
+.NASA, .trip, .reflection, .build{
   background-color:#f5f8fd;
   padding: 5%;
   overflow-x :hidden; 
-  
-  
+}
+.trip2 {
+  padding: none;
+
 }
 .design{
   background-color:#fff;
-  margin: 5%;
+  padding: 5%;
   overflow-x :hidden; 
   
 
@@ -466,7 +469,7 @@ font-size: 24px;
   font-size: 28px;
   font-weight: bolder;
   color: #173b6c;
-  margin: none;
+ padding: 0;
 }
 .nasatech-rise{
   display: block;
@@ -504,8 +507,13 @@ font-size: 24px;
   height: auto;
 }
 .portfolio-details .portfolio-details-slider .image2 {
-  width: 50vh;
-  height: 70vh;
+  width: 80%;
+  height: auto;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3%;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 0px;
@@ -552,9 +560,8 @@ font-size: 24px;
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-.trip{
+.trip2{
   color: rgb(0, 0, 0);
-  margin-right: auto;
   width:100%;
   height: auto;
   font-size: 18px;
@@ -562,8 +569,7 @@ font-size: 24px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: auto;
- margin-bottom: auto;
+
 
 }
 
@@ -606,6 +612,15 @@ font-size: 24px;
   text-align: center;
   padding-top: 50px;
 }
+
+.build h1{
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+.body-text p{
+  padding-bottom: 20px;
+}
 .harvard-images{
   margin-right: auto;
   width:100%;
@@ -614,7 +629,8 @@ font-size: 24px;
   flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+  justify-content: space-between;
 
 }
 .harvard{
@@ -623,7 +639,7 @@ font-size: 24px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1%;
+  justify-content: space-between;
   flex-basis: 100%;
   align-items: center;
 }
@@ -636,32 +652,161 @@ font-size: 24px;
     flex-basis: 19.5%;
   }
 }
+.projects button{
+  margin-right: auto;
+  height: auto;
+  height: 375px;
+  width: 375px;
+  float: left;
 
-.trip .section-title h1{
-text-align: center;
+
+
 }
 
-.portfolio-links{
-  margin: auto;
-  width: 100%;
-  top: 50%;
+.projects button {
   border: none;
-  background-color: none;
-}
-.button2 {
-  border: none;
-  background-color: none;
+  background-color:#f5f8fd;
+
+  
 }
 
-.button2:hover{
+.projects button:hover{
   background-color:#149ddd;
-  margin: 1%;
-  border-radius: 12px;
+  border-radius: 8px;
   display: block;
-  padding: 3%;
+  padding: 1%;
 }
 
-.main{
-  width: 100%;
 
+@media (min-width: 600px) {
+  main {
+    float: none;
+  }
+  .projects button {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+  
+/*--------------------------------------------------------------
+# Garage Project
+--------------------------------------------------------------*/
+  .schematics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+  }
+  .CAD-main{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin-right: auto;
+    width:100%;
+    height: auto;
+    font-size: 18px;
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: auto;
+   margin-bottom: auto;
+  }
+  .title-center h1{
+    text-align: center;
+    font-size: 28px;
+  font-weight: bolder;
+  color: #173b6c;
+  margin: none;
+  padding: 20px;
+  }
+  .CAD  {
+    margin: 1%;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+    padding-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    flex-basis: 100%;
+    font-style: italic;
+  
+    
+  }
+  .CAD img{
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+  
+  
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+    .CAD {
+      flex-basis: 20%;
+    }
+  }
+
+  .solder-main{
+    color: rgb(0, 0, 0);
+    background-color:#f5f8fd;
+    width:100%;
+    height: auto;
+    font-size: 18px;
+    flex-basis: 100%;
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .solder  {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    flex-basis: 100%;
+    font-style: italic;
+  }
+  .solder img{
+    height: auto;
+    width: 100%;
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+.preassembly {
+padding-bottom: 10px;
+}
+    
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+    .solder {
+      flex-basis: 45%;
+    }
+  }
+  @media (min-width: 600px){
+    main{
+      width: auto;
+      height: auto;
+    }
+    .video{
+      width: 500px;
+      height: 500px;
+    }
+    .video2{
+      width: 640px;
+      height: 430px;
+    }
+  }
