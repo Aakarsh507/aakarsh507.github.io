@@ -439,6 +439,7 @@ NASA TechRise
   background-color:#f5f8fd;
   padding: 3%;
   overflow-x :hidden; 
+  overflow: auto;
 }
 .trip2 {
   padding: none;
@@ -448,6 +449,7 @@ NASA TechRise
   background-color:#fff;
   padding: 3%;
   overflow-x :hidden; 
+  overflow: auto;
   
 
 }
@@ -832,9 +834,34 @@ font-size: 24px;
     flex-basis: 100%;
     justify-content: space-between;
   }
-.preassembly {
-padding-bottom: 10px;
-}
+
+  .build-main{
+    color: rgb(0, 0, 0);
+    background-color:#f5f8fd;
+    width:100%;
+    height: auto;
+    font-size: 18px;
+    flex-basis: 100%;
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .build3  {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    flex-basis: 100%;
+    font-style: italic;
+  }
+  .build3 img{
+    height: auto;
+    width: 100%;
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+
     
   @media (min-width: 600px) {
     main {
@@ -842,6 +869,9 @@ padding-bottom: 10px;
     }
     .build2 {
       flex-basis: 45%;
+    }
+    .build3 {
+      flex-basis: 31.3%;
     }
   }
   @media (min-width: 600px){
@@ -854,7 +884,7 @@ padding-bottom: 10px;
       height: 500px;
     }
     .video2{
-      width: 640px;
-      height: 430px;
+      width: 500px;
+      height: 250px;
     }
   }
