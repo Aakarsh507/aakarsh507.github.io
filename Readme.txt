@@ -1,3 +1,3 @@
 Aakarsh Gupta Website
 
-Engineering Portfolio 
+Portfolio 
