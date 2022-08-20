@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 35px;
     line-height: 36px;
   }
   #hero h2 {
@@ -347,6 +347,7 @@ section {
   margin-left: auto;
   margin-right: auto;
   font-family: "Raleway", sans-serif;
+  border: none;
 }
 .button {
   color: #173b6c;
